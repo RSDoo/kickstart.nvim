@@ -11,3 +11,6 @@ vim.api.nvim_set_keymap("i", "<C-K>", 'copilot#Next()', { silent = true, expr = 
 -- format with mhartington/formatter.nvim
 vim.keymap.set("n", "<leader>ff", ":Format<CR>")
 vim.keymap.set("n", "<leader>F", ":FormatWrite<CR>")
+
+-- copy to windows clipboard
+vim.keymap.set("v", "<leader>cc", " !clip.exe<CR> | :u<CR>", { silent = true })
