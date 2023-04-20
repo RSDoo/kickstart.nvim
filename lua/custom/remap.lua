@@ -14,3 +14,8 @@ vim.keymap.set("n", "<leader>F", ":FormatWrite<CR>")
 
 -- copy to windows clipboard
 vim.keymap.set("v", "<leader>cc", " !clip.exe<CR> | :u<CR>", { silent = true })
+
+-- move line down 
+vim.keymap.set("n", "<A-j>", ":m .+1<CR>")
+-- move line up 
+vim.keymap.set("n", "<A-k>", ":m .-2<CR>")
