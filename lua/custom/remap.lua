@@ -19,3 +19,9 @@ vim.keymap.set("v", "<leader>cc", " !clip.exe<CR> | :u<CR>", { silent = true })
 vim.keymap.set("n", "<A-j>", ":m .+1<CR>")
 -- move line up 
 vim.keymap.set("n", "<A-k>", ":m .-2<CR>")
+
+-- Undotree
+vim.keymap.set("n", "<leader>u", ":UndotreeToggle<CR>");
+
+-- Fugitive
+vim.keymap.set("n", "<leader>gs", ":Git<CR>");
