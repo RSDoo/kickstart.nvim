@@ -25,3 +25,9 @@ vim.keymap.set("n", "<leader>u", ":UndotreeToggle<CR>");
 
 -- Fugitive
 vim.keymap.set("n", "<leader>gs", ":Git<CR>");
+
+-- Closing brace 
+vim.keymap.set("i", "{", "{<CR>}<C-o>O");
+vim.keymap.set("i", "(", "()<C-o>i");
+vim.keymap.set("i", "\"", "\"\"<C-o>i");
+
