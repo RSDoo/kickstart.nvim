@@ -7,5 +7,6 @@ return {
 	'nvim-treesitter/playground',
 	'mbbill/undotree',
 	'tpope/vim-fugitive',
-	'nvim-treesitter/nvim-treesitter-context'
+	'nvim-treesitter/nvim-treesitter-context',
+	'jiangmiao/auto-pairs'
 }
