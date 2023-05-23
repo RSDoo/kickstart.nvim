@@ -8,5 +8,6 @@ return {
 	'mbbill/undotree',
 	'tpope/vim-fugitive',
 	'nvim-treesitter/nvim-treesitter-context',
-	'jiangmiao/auto-pairs'
+	'Raimondi/delimitMate',
+	'windwp/nvim-ts-autotag'
 }
